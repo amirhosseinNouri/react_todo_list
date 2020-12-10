@@ -45,7 +45,9 @@ export default class App extends Component {
   };
 
   clearList = (event) => {
-    console.log("Clear list");
+    this.setState({
+      items : []
+    })
   };
 
   handleDelete = (id) => {
