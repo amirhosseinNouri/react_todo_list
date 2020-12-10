@@ -38,7 +38,10 @@ export default class App extends Component {
   };
 
   handleDelete = (id) => {
-    console.log(`handle delete ${id}`);
+    const filteredItems = this.state.items.filter((item) => item.id !== id)
+    this.setState({
+      items : filteredItems
+    })
   };
   handleEdit = (id) => {
     console.log(`handle edit ${id}`);
@@ -50,12 +53,7 @@ export default class App extends Component {
     })
   };
 
-  handleDelete = (id) => {
-    console.log(`handle delete ${id}`);
-  };
-  handleEdit = (id) => {
-    console.log(`handle edit ${id}`);
-  };
+
 
   render() {
     return (
