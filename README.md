@@ -8,4 +8,4 @@ Checkout the final result [here](https://amirhosseinnouri-react-todo-list.netlif
 
 # TODO
 
-- [] Change class-based component to functional-based component and use React Hook to store tasks in localStorage.
+- [ ] Change class-based component to functional-based component and use React Hook to store tasks in localStorage.
